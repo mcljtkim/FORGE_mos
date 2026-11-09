@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Face Matching Study</title>
+<style>
+  :root { --bg:#fafafa; --fg:#1a1a1a; --mut:#6b6b6b; --line:#dcdcdc; --acc:#2f6fd0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:28px 20px 60px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .mut { color:var(--mut); font-size:14px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:22px; margin-top:18px; }
+  button { font:inherit; padding:10px 20px; border-radius:7px; border:1px solid var(--acc);
+           background:var(--acc); color:#fff; cursor:pointer; }
+  button.ghost { background:#fff; color:var(--acc); }
+  button:disabled { opacity:.45; cursor:default; }
+  input { font:inherit; padding:9px 11px; border:1px solid var(--line); border-radius:7px; width:220px; }
+  .bar { height:5px; background:#e8e8e8; border-radius:3px; overflow:hidden; margin:14px 0 4px; }
+  .bar > i { display:block; height:100%; background:var(--acc); width:0; transition:width .2s; }
+  .probe { text-align:center; }
+  .probe img { width:200px; height:200px; border-radius:10px; border:1px solid var(--line); }
+  .cands { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:18px; }
+  .cand { border:3px solid transparent; border-radius:10px; padding:4px; cursor:pointer;
+          background:#fff; text-align:center; }
+  .cand:hover { border-color:#b9d0f2; }
+  .cand img { width:100%; aspect-ratio:1; object-fit:cover; border-radius:7px; display:block; }
+  .cand span { font-size:13px; color:var(--mut); }
+  ol { padding-left:20px; } li { margin:6px 0; }
+  @media (max-width:560px){ .cands{grid-template-columns:repeat(2,1fr);} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Face Matching Study</h1>
+  <div class="mut">약 12–15분 소요 · 익명으로 수집됩니다</div>
+
+  <div id="intro" class="card">
+    <p>화면 위쪽에 <b>처리된 얼굴 사진</b> 한 장이 나옵니다. 아래 <b>후보 4장</b> 중
+       <b>같은 사람</b>이라고 생각되는 것을 고르세요.</p>
+    <ol>
+      <li>확신이 없어도 반드시 하나를 고릅니다 (추측 허용).</li>
+      <li>한 번 고르면 되돌아갈 수 없습니다.</li>
+      <li>정답은 알려주지 않습니다. 끝까지 같은 기준으로 판단해 주세요.</li>
+    </ol>
+    <p class="mut">일부 사진은 알아보기 매우 어렵게 처리돼 있습니다. 정상입니다.</p>
+    <p><input id="pid" placeholder="참가자 ID (예: p01)" autocomplete="off"></p>
+    <button id="start">시작</button>
+  </div>
+
+  <div id="task" class="card" hidden>
+    <div class="bar"><i id="fill"></i></div>
+    <div class="mut" id="count"></div>
+    <div class="probe"><img id="probe" alt="처리된 얼굴"></div>
+    <div class="cands" id="cands"></div>
+  </div>
+
+  <div id="done" class="card" hidden>
+    <h1>완료했습니다 — 감사합니다</h1>
+    <p>아래 버튼으로 결과 CSV를 내려받아 <b id="mail"></b> 로 보내주세요.</p>
+    <p><button id="dl">결과 CSV 내려받기</button>
+       <button class="ghost" id="again">다시 내려받기 안내</button></p>
+    <p class="mut" id="sum"></p>
+  </div>
+</div>
+
+<script>
+const S = { cfg:null, order:[], i:0, pid:'', rows:[], t0:0 };
+
+// 참가자 ID -> 시드 (참가자마다 다른 제시 순서)
+function seedFrom(s){ let h=2166136261; for(const c of s){ h^=c.charCodeAt(0); h=Math.imul(h,16777619); } return h>>>0; }
+function rngFrom(seed){ let x=seed||1; return ()=>{ x^=x<<13; x^=x>>>17; x^=x<<5; x>>>=0; return x/4294967296; }; }
+function shuffle(arr, rnd){ const a=arr.slice();
+  for(let i=a.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+
+const $ = id => document.getElementById(id);
+
+fetch('study_config.json').then(r=>r.json()).then(c=>{
+  S.cfg = c; $('mail').textContent = c.contact_email;
+  $('start').disabled = false;
+});
+
+$('start').onclick = () => {
+  const pid = $('pid').value.trim();
+  if(!pid){ $('pid').focus(); return; }
+  S.pid = pid;
+  S.order = shuffle(S.cfg.trials.map((_,i)=>i), rngFrom(seedFrom(pid)));
+  $('intro').hidden = true; $('task').hidden = false;
+  render();
+};
+
+function render(){
+  const t = S.cfg.trials[S.order[S.i]];
+  $('probe').src = t.probe;
+  $('count').textContent = `${S.i+1} / ${S.order.length}`;
+  $('fill').style.width = (100*S.i/S.order.length) + '%';
+  const box = $('cands'); box.innerHTML = '';
+  t.candidates.forEach((p, idx) => {
+    const d = document.createElement('div');
+    d.className = 'cand';
+    d.innerHTML = `<img src="${p}" alt="후보 ${idx+1}"><span>${idx+1}</span>`;
+    d.onclick = () => choose(idx);
+    box.appendChild(d);
+  });
+  S.t0 = performance.now();
+}
+
+function choose(idx){
+  const t = S.cfg.trials[S.order[S.i]];
+  S.rows.push({
+    participant: S.pid, trial: S.i+1, condition: t.condition, pair_idx: t.pair_idx,
+    chosen: idx, correct_idx: t.correct, correct: idx === t.correct ? 1 : 0,
+    rt_ms: Math.round(performance.now() - S.t0),
+    heldout_cos: t.proxy.heldout_cos ?? '', cosface_cos: t.proxy.cosface_cos ?? '',
+    arcface_cos: t.proxy.arcface_cos ?? '', clip: t.proxy.clip ?? ''
+  });
+  try { localStorage.setItem('exp039_'+S.pid, JSON.stringify(S.rows)); } catch(e) {}
+  S.i++;
+  if(S.i >= S.order.length){ finish(); } else { render(); }
+}
+
+function finish(){
+  $('task').hidden = true; $('done').hidden = false;
+  const n = S.rows.length, acc = S.rows.reduce((a,r)=>a+r.correct,0)/n;
+  $('sum').textContent = `${n} trial 완료 · 전체 정답률 ${(100*acc).toFixed(1)}%`;
+}
+
+function csv(){
+  const cols = Object.keys(S.rows[0]);
+  return [cols.join(',')].concat(S.rows.map(r=>cols.map(c=>r[c]).join(','))).join('\n');
+}
+$('dl').onclick = () => {
+  const b = new Blob([csv()], {type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(b); a.download = `exp039_${S.pid}.csv`; a.click();
+};
+$('again').onclick = () => alert('브라우저 다운로드 폴더를 확인하세요. 파일명: exp039_' + S.pid + '.csv');
+</script>
+</body>
+</html>
