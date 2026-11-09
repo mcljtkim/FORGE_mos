@@ -14,2042 +14,2042 @@
  "trials": [
   {
    "condition": "FORGE",
-   "pair_idx": 5898,
-   "probe": "images/FORGE/05898.jpg",
+   "pair_idx": 5624,
+   "probe": "images/FORGE/05624.jpg",
    "candidates": [
-    "images/_sources/05544.jpg",
-    "images/_sources/05898.jpg",
-    "images/_sources/00534.jpg",
-    "images/_sources/03803.jpg"
+    "images/_sources/05641.jpg",
+    "images/_sources/05624.jpg",
+    "images/_sources/01581.jpg",
+    "images/_sources/01877.jpg"
    ],
    "correct": 1,
    "proxy": {
-    "heldout_cos": 0.2031,
-    "cosface_cos": 0.1329,
-    "arcface_cos": 0.8366
+    "heldout_cos": 0.242,
+    "cosface_cos": 0.2412,
+    "arcface_cos": 0.653
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 4011,
-   "probe": "images/Original/04011.jpg",
+   "pair_idx": 3802,
+   "probe": "images/Original/03802.jpg",
    "candidates": [
-    "images/_sources/04011.jpg",
-    "images/_sources/05755.jpg",
-    "images/_sources/03729.jpg",
-    "images/_sources/03566.jpg"
+    "images/_sources/03802.jpg",
+    "images/_sources/04939.jpg",
+    "images/_sources/00273.jpg",
+    "images/_sources/03581.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.634,
+    "cosface_cos": 0.6723,
+    "arcface_cos": 0.7463
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 4902,
-   "probe": "images/Original/04902.jpg",
+   "pair_idx": 4825,
+   "probe": "images/Original/04825.jpg",
    "candidates": [
-    "images/_sources/05533.jpg",
-    "images/_sources/03677.jpg",
-    "images/_sources/01326.jpg",
-    "images/_sources/04902.jpg"
+    "images/_sources/03880.jpg",
+    "images/_sources/04480.jpg",
+    "images/_sources/00076.jpg",
+    "images/_sources/04825.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.5774,
+    "cosface_cos": 0.5709,
+    "arcface_cos": 0.7858
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 4320,
-   "probe": "images/Forbes/04320.jpg",
+   "pair_idx": 4239,
+   "probe": "images/Forbes/04239.jpg",
    "candidates": [
-    "images/_sources/04625.jpg",
-    "images/_sources/05450.jpg",
-    "images/_sources/04687.jpg",
-    "images/_sources/04320.jpg"
+    "images/_sources/03134.jpg",
+    "images/_sources/05105.jpg",
+    "images/_sources/04971.jpg",
+    "images/_sources/04239.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": -0.0614,
-    "cosface_cos": -0.136,
-    "arcface_cos": 0.1218
+    "heldout_cos": 0.0363,
+    "cosface_cos": 0.0179,
+    "arcface_cos": 0.3035
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 1409,
-   "probe": "images/FORGE/01409.jpg",
+   "pair_idx": 1297,
+   "probe": "images/FORGE/01297.jpg",
    "candidates": [
-    "images/_sources/05981.jpg",
-    "images/_sources/05842.jpg",
-    "images/_sources/01409.jpg",
-    "images/_sources/03806.jpg"
+    "images/_sources/03686.jpg",
+    "images/_sources/01832.jpg",
+    "images/_sources/01297.jpg",
+    "images/_sources/04603.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.2934,
-    "cosface_cos": 0.2518,
-    "arcface_cos": 0.8512
+    "heldout_cos": 0.2625,
+    "cosface_cos": 0.3148,
+    "arcface_cos": 0.5509
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 603,
-   "probe": "images/Forbes/00603.jpg",
+   "pair_idx": 298,
+   "probe": "images/Forbes/00298.jpg",
    "candidates": [
-    "images/_sources/03604.jpg",
-    "images/_sources/00832.jpg",
-    "images/_sources/03176.jpg",
-    "images/_sources/00603.jpg"
+    "images/_sources/03868.jpg",
+    "images/_sources/04451.jpg",
+    "images/_sources/05335.jpg",
+    "images/_sources/00298.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 0.0362,
-    "cosface_cos": -0.0907,
-    "arcface_cos": 0.2858
+    "heldout_cos": 0.0051,
+    "cosface_cos": -0.0423,
+    "arcface_cos": 0.3582
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 2819,
-   "probe": "images/Forbes/02819.jpg",
+   "pair_idx": 2606,
+   "probe": "images/Forbes/02606.jpg",
    "candidates": [
-    "images/_sources/02433.jpg",
-    "images/_sources/01160.jpg",
-    "images/_sources/02819.jpg",
-    "images/_sources/03183.jpg"
+    "images/_sources/00929.jpg",
+    "images/_sources/03508.jpg",
+    "images/_sources/02606.jpg",
+    "images/_sources/04088.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.0323,
-    "cosface_cos": -0.0015,
-    "arcface_cos": 0.3368
+    "heldout_cos": 0.0351,
+    "cosface_cos": 0.1068,
+    "arcface_cos": 0.4336
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 3474,
-   "probe": "images/Original/03474.jpg",
+   "pair_idx": 3213,
+   "probe": "images/Original/03213.jpg",
    "candidates": [
-    "images/_sources/03061.jpg",
-    "images/_sources/05982.jpg",
-    "images/_sources/01913.jpg",
-    "images/_sources/03474.jpg"
+    "images/_sources/02132.jpg",
+    "images/_sources/05701.jpg",
+    "images/_sources/01372.jpg",
+    "images/_sources/03213.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.6137,
+    "cosface_cos": 0.7067,
+    "arcface_cos": 0.7553
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 5636,
-   "probe": "images/Original/05636.jpg",
+   "pair_idx": 5514,
+   "probe": "images/Original/05514.jpg",
    "candidates": [
-    "images/_sources/02212.jpg",
-    "images/_sources/03160.jpg",
-    "images/_sources/05636.jpg",
-    "images/_sources/01794.jpg"
+    "images/_sources/05092.jpg",
+    "images/_sources/05163.jpg",
+    "images/_sources/05514.jpg",
+    "images/_sources/05103.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.8507,
+    "cosface_cos": 0.8528,
+    "arcface_cos": 0.9055
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 1253,
-   "probe": "images/FreM/01253.jpg",
+   "pair_idx": 5644,
+   "probe": "images/FreM/05644.jpg",
    "candidates": [
-    "images/_sources/03986.jpg",
-    "images/_sources/01253.jpg",
-    "images/_sources/02557.jpg",
-    "images/_sources/04486.jpg"
+    "images/_sources/01684.jpg",
+    "images/_sources/05644.jpg",
+    "images/_sources/04818.jpg",
+    "images/_sources/05373.jpg"
    ],
    "correct": 1,
    "proxy": {
-    "heldout_cos": 0.2266,
-    "cosface_cos": 0.0425,
-    "arcface_cos": 0.0517
+    "heldout_cos": 0.2259,
+    "cosface_cos": 0.0958,
+    "arcface_cos": -0.0565
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 1096,
-   "probe": "images/Original/01096.jpg",
+   "pair_idx": 842,
+   "probe": "images/Original/00842.jpg",
    "candidates": [
-    "images/_sources/03999.jpg",
-    "images/_sources/05646.jpg",
-    "images/_sources/04792.jpg",
-    "images/_sources/01096.jpg"
+    "images/_sources/02056.jpg",
+    "images/_sources/03496.jpg",
+    "images/_sources/05365.jpg",
+    "images/_sources/00842.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.6039,
+    "cosface_cos": 0.596,
+    "arcface_cos": 0.5936
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 4945,
-   "probe": "images/FORGE/04945.jpg",
+   "pair_idx": 4845,
+   "probe": "images/FORGE/04845.jpg",
    "candidates": [
-    "images/_sources/04945.jpg",
-    "images/_sources/04897.jpg",
-    "images/_sources/04220.jpg",
-    "images/_sources/05350.jpg"
+    "images/_sources/04845.jpg",
+    "images/_sources/03055.jpg",
+    "images/_sources/05344.jpg",
+    "images/_sources/02764.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 0.3385,
-    "cosface_cos": 0.3213,
-    "arcface_cos": 0.8581
+    "heldout_cos": 0.106,
+    "cosface_cos": 0.0727,
+    "arcface_cos": 0.7318
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 2643,
-   "probe": "images/FreM/02643.jpg",
+   "pair_idx": 2496,
+   "probe": "images/FreM/02496.jpg",
    "candidates": [
-    "images/_sources/05881.jpg",
-    "images/_sources/00958.jpg",
-    "images/_sources/02643.jpg",
-    "images/_sources/03519.jpg"
+    "images/_sources/00215.jpg",
+    "images/_sources/03499.jpg",
+    "images/_sources/02496.jpg",
+    "images/_sources/04247.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.3867,
-    "cosface_cos": 0.2167,
-    "arcface_cos": 0.0361
+    "heldout_cos": 0.2124,
+    "cosface_cos": 0.1559,
+    "arcface_cos": -0.0084
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 170,
-   "probe": "images/FreM/00170.jpg",
+   "pair_idx": 84,
+   "probe": "images/FreM/00084.jpg",
    "candidates": [
-    "images/_sources/00170.jpg",
-    "images/_sources/01385.jpg",
-    "images/_sources/05267.jpg",
-    "images/_sources/01983.jpg"
+    "images/_sources/00084.jpg",
+    "images/_sources/05345.jpg",
+    "images/_sources/01404.jpg",
+    "images/_sources/03208.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 0.2778,
-    "cosface_cos": 0.0671,
-    "arcface_cos": -0.0437
+    "heldout_cos": 0.1713,
+    "cosface_cos": 0.0009,
+    "arcface_cos": -0.0391
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 2479,
-   "probe": "images/FreM/02479.jpg",
+   "pair_idx": 2436,
+   "probe": "images/FreM/02436.jpg",
    "candidates": [
-    "images/_sources/02479.jpg",
-    "images/_sources/03832.jpg",
-    "images/_sources/02079.jpg",
-    "images/_sources/04451.jpg"
+    "images/_sources/02436.jpg",
+    "images/_sources/04816.jpg",
+    "images/_sources/04219.jpg",
+    "images/_sources/04638.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 0.33,
-    "cosface_cos": 0.1512,
-    "arcface_cos": -0.0041
+    "heldout_cos": 0.1791,
+    "cosface_cos": 0.1071,
+    "arcface_cos": 0.0287
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 1235,
-   "probe": "images/Forbes/01235.jpg",
+   "pair_idx": 1212,
+   "probe": "images/Forbes/01212.jpg",
    "candidates": [
-    "images/_sources/01235.jpg",
-    "images/_sources/00353.jpg",
-    "images/_sources/03610.jpg",
-    "images/_sources/05595.jpg"
+    "images/_sources/01212.jpg",
+    "images/_sources/04626.jpg",
+    "images/_sources/00952.jpg",
+    "images/_sources/04127.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": -0.0429,
-    "cosface_cos": -0.1204,
-    "arcface_cos": 0.45
+    "heldout_cos": 0.0374,
+    "cosface_cos": 0.1064,
+    "arcface_cos": 0.281
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 5749,
-   "probe": "images/Forbes/05749.jpg",
+   "pair_idx": 5539,
+   "probe": "images/Forbes/05539.jpg",
    "candidates": [
-    "images/_sources/02761.jpg",
-    "images/_sources/05033.jpg",
-    "images/_sources/05749.jpg",
-    "images/_sources/04206.jpg"
+    "images/_sources/03695.jpg",
+    "images/_sources/02906.jpg",
+    "images/_sources/05539.jpg",
+    "images/_sources/01951.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.0202,
-    "cosface_cos": 0.0083,
-    "arcface_cos": 0.2893
+    "heldout_cos": -0.0132,
+    "cosface_cos": -0.1105,
+    "arcface_cos": 0.2587
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 5674,
-   "probe": "images/Original/05674.jpg",
+   "pair_idx": 5535,
+   "probe": "images/Original/05535.jpg",
    "candidates": [
-    "images/_sources/05674.jpg",
-    "images/_sources/02455.jpg",
-    "images/_sources/05615.jpg",
-    "images/_sources/01187.jpg"
+    "images/_sources/05535.jpg",
+    "images/_sources/05828.jpg",
+    "images/_sources/00639.jpg",
+    "images/_sources/00544.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.7151,
+    "cosface_cos": 0.7253,
+    "arcface_cos": 0.7584
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 3446,
-   "probe": "images/Forbes/03446.jpg",
+   "pair_idx": 3219,
+   "probe": "images/Forbes/03219.jpg",
    "candidates": [
-    "images/_sources/02203.jpg",
-    "images/_sources/03446.jpg",
-    "images/_sources/03422.jpg",
-    "images/_sources/03232.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": -0.0068,
-    "cosface_cos": -0.0194,
-    "arcface_cos": 0.4902
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 650,
-   "probe": "images/Forbes/00650.jpg",
-   "candidates": [
-    "images/_sources/05506.jpg",
-    "images/_sources/05628.jpg",
-    "images/_sources/04710.jpg",
-    "images/_sources/00650.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.002,
-    "cosface_cos": -0.0063,
-    "arcface_cos": 0.399
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 3799,
-   "probe": "images/Original/03799.jpg",
-   "candidates": [
-    "images/_sources/03234.jpg",
-    "images/_sources/03799.jpg",
-    "images/_sources/04022.jpg",
-    "images/_sources/01875.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 1839,
-   "probe": "images/FreM/01839.jpg",
-   "candidates": [
-    "images/_sources/05515.jpg",
-    "images/_sources/00932.jpg",
     "images/_sources/01687.jpg",
-    "images/_sources/01839.jpg"
+    "images/_sources/03219.jpg",
+    "images/_sources/03250.jpg",
+    "images/_sources/05672.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0592,
+    "cosface_cos": -0.0184,
+    "arcface_cos": 0.1766
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 619,
+   "probe": "images/Forbes/00619.jpg",
+   "candidates": [
+    "images/_sources/04223.jpg",
+    "images/_sources/00845.jpg",
+    "images/_sources/05010.jpg",
+    "images/_sources/00619.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 0.3456,
-    "cosface_cos": 0.2307,
+    "heldout_cos": -0.0557,
+    "cosface_cos": -0.0525,
+    "arcface_cos": 0.2404
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 3689,
+   "probe": "images/Original/03689.jpg",
+   "candidates": [
+    "images/_sources/02576.jpg",
+    "images/_sources/03689.jpg",
+    "images/_sources/00618.jpg",
+    "images/_sources/02964.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.641,
+    "cosface_cos": 0.6992,
+    "arcface_cos": 0.723
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 1811,
+   "probe": "images/FreM/01811.jpg",
+   "candidates": [
+    "images/_sources/00379.jpg",
+    "images/_sources/04370.jpg",
+    "images/_sources/03731.jpg",
+    "images/_sources/01811.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.1682,
+    "cosface_cos": 0.0401,
+    "arcface_cos": -0.0889
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 2637,
+   "probe": "images/FORGE/02637.jpg",
+   "candidates": [
+    "images/_sources/01673.jpg",
+    "images/_sources/04483.jpg",
+    "images/_sources/05510.jpg",
+    "images/_sources/02637.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.2559,
+    "cosface_cos": 0.1963,
+    "arcface_cos": 0.6285
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 5052,
+   "probe": "images/FORGE/05052.jpg",
+   "candidates": [
+    "images/_sources/04700.jpg",
+    "images/_sources/02331.jpg",
+    "images/_sources/05052.jpg",
+    "images/_sources/00706.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1726,
+    "cosface_cos": 0.1276,
+    "arcface_cos": 0.6775
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 1213,
+   "probe": "images/Forbes/01213.jpg",
+   "candidates": [
+    "images/_sources/01213.jpg",
+    "images/_sources/04733.jpg",
+    "images/_sources/00964.jpg",
+    "images/_sources/04127.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.0118,
+    "cosface_cos": 0.0048,
+    "arcface_cos": 0.1804
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 4229,
+   "probe": "images/FreM/04229.jpg",
+   "candidates": [
+    "images/_sources/04229.jpg",
+    "images/_sources/03789.jpg",
+    "images/_sources/00932.jpg",
+    "images/_sources/03710.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.1554,
+    "cosface_cos": 0.1114,
+    "arcface_cos": -0.0376
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 3699,
+   "probe": "images/Original/03699.jpg",
+   "candidates": [
+    "images/_sources/04752.jpg",
+    "images/_sources/00019.jpg",
+    "images/_sources/04300.jpg",
+    "images/_sources/03699.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.8039,
+    "cosface_cos": 0.8011,
+    "arcface_cos": 0.7659
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 4993,
+   "probe": "images/Forbes/04993.jpg",
+   "candidates": [
+    "images/_sources/04610.jpg",
+    "images/_sources/04993.jpg",
+    "images/_sources/03465.jpg",
+    "images/_sources/05605.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0565,
+    "cosface_cos": 0.0734,
+    "arcface_cos": 0.3484
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 260,
+   "probe": "images/Original/00260.jpg",
+   "candidates": [
+    "images/_sources/05750.jpg",
+    "images/_sources/04696.jpg",
+    "images/_sources/00038.jpg",
+    "images/_sources/00260.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.6756,
+    "cosface_cos": 0.6501,
+    "arcface_cos": 0.7113
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 3684,
+   "probe": "images/FreM/03684.jpg",
+   "candidates": [
+    "images/_sources/00040.jpg",
+    "images/_sources/03684.jpg",
+    "images/_sources/04038.jpg",
+    "images/_sources/05031.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.1856,
+    "cosface_cos": 0.0392,
     "arcface_cos": -0.0654
    }
   },
   {
-   "condition": "FORGE",
-   "pair_idx": 2931,
-   "probe": "images/FORGE/02931.jpg",
+   "condition": "Forbes",
+   "pair_idx": 5497,
+   "probe": "images/Forbes/05497.jpg",
    "candidates": [
-    "images/_sources/03591.jpg",
-    "images/_sources/00142.jpg",
-    "images/_sources/00765.jpg",
-    "images/_sources/02931.jpg"
+    "images/_sources/03652.jpg",
+    "images/_sources/03140.jpg",
+    "images/_sources/04418.jpg",
+    "images/_sources/05497.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 0.4467,
-    "cosface_cos": 0.5356,
-    "arcface_cos": 0.8583
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 5406,
-   "probe": "images/FORGE/05406.jpg",
-   "candidates": [
-    "images/_sources/01936.jpg",
-    "images/_sources/04751.jpg",
-    "images/_sources/05406.jpg",
-    "images/_sources/02340.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.1341,
-    "cosface_cos": 0.1704,
-    "arcface_cos": 0.8396
+    "heldout_cos": 0.0209,
+    "cosface_cos": -0.0073,
+    "arcface_cos": 0.3102
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 1228,
-   "probe": "images/Forbes/01228.jpg",
+   "pair_idx": 25,
+   "probe": "images/Forbes/00025.jpg",
    "candidates": [
-    "images/_sources/01228.jpg",
-    "images/_sources/04119.jpg",
-    "images/_sources/04819.jpg",
-    "images/_sources/04298.jpg"
+    "images/_sources/02255.jpg",
+    "images/_sources/00717.jpg",
+    "images/_sources/00025.jpg",
+    "images/_sources/03885.jpg"
    ],
-   "correct": 0,
+   "correct": 2,
    "proxy": {
-    "heldout_cos": 0.012,
-    "cosface_cos": 0.0442,
-    "arcface_cos": 0.3939
+    "heldout_cos": -0.013,
+    "cosface_cos": -0.0049,
+    "arcface_cos": 0.224
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 4331,
-   "probe": "images/FreM/04331.jpg",
+   "pair_idx": 633,
+   "probe": "images/FreM/00633.jpg",
    "candidates": [
-    "images/_sources/04331.jpg",
-    "images/_sources/02707.jpg",
-    "images/_sources/03165.jpg",
-    "images/_sources/03694.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.3021,
-    "cosface_cos": 0.1289,
-    "arcface_cos": -0.019
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 3840,
-   "probe": "images/Original/03840.jpg",
-   "candidates": [
-    "images/_sources/01376.jpg",
-    "images/_sources/05254.jpg",
-    "images/_sources/00360.jpg",
-    "images/_sources/03840.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 5198,
-   "probe": "images/Forbes/05198.jpg",
-   "candidates": [
-    "images/_sources/04391.jpg",
-    "images/_sources/05198.jpg",
-    "images/_sources/02045.jpg",
-    "images/_sources/03481.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": -0.0124,
-    "cosface_cos": 0.0404,
-    "arcface_cos": 0.319
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 530,
-   "probe": "images/Original/00530.jpg",
-   "candidates": [
-    "images/_sources/02642.jpg",
-    "images/_sources/05347.jpg",
-    "images/_sources/03448.jpg",
-    "images/_sources/00530.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 3838,
-   "probe": "images/FreM/03838.jpg",
-   "candidates": [
-    "images/_sources/04699.jpg",
-    "images/_sources/03838.jpg",
-    "images/_sources/04735.jpg",
-    "images/_sources/01972.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.2481,
-    "cosface_cos": 0.0489,
-    "arcface_cos": -0.011
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 5682,
-   "probe": "images/Forbes/05682.jpg",
-   "candidates": [
-    "images/_sources/03048.jpg",
-    "images/_sources/05227.jpg",
-    "images/_sources/03091.jpg",
-    "images/_sources/05682.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.0728,
-    "cosface_cos": 0.0668,
-    "arcface_cos": 0.3287
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 52,
-   "probe": "images/Forbes/00052.jpg",
-   "candidates": [
-    "images/_sources/01628.jpg",
-    "images/_sources/02015.jpg",
-    "images/_sources/00052.jpg",
-    "images/_sources/01945.jpg"
+    "images/_sources/03317.jpg",
+    "images/_sources/01856.jpg",
+    "images/_sources/00633.jpg",
+    "images/_sources/00033.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.0348,
-    "cosface_cos": -0.0802,
-    "arcface_cos": 0.3723
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 669,
-   "probe": "images/FreM/00669.jpg",
-   "candidates": [
-    "images/_sources/02264.jpg",
-    "images/_sources/04356.jpg",
-    "images/_sources/00669.jpg",
-    "images/_sources/00135.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.2169,
-    "cosface_cos": -0.0204,
-    "arcface_cos": -0.0138
+    "heldout_cos": 0.1453,
+    "cosface_cos": 0.0263,
+    "arcface_cos": 0.0785
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 2182,
-   "probe": "images/FORGE/02182.jpg",
+   "pair_idx": 1975,
+   "probe": "images/FORGE/01975.jpg",
    "candidates": [
-    "images/_sources/05660.jpg",
-    "images/_sources/01599.jpg",
-    "images/_sources/01977.jpg",
-    "images/_sources/02182.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.4031,
-    "cosface_cos": 0.4438,
-    "arcface_cos": 0.8554
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 4024,
-   "probe": "images/Original/04024.jpg",
-   "candidates": [
-    "images/_sources/03549.jpg",
-    "images/_sources/04024.jpg",
-    "images/_sources/02119.jpg",
-    "images/_sources/02108.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 4081,
-   "probe": "images/Original/04081.jpg",
-   "candidates": [
-    "images/_sources/01514.jpg",
-    "images/_sources/04081.jpg",
-    "images/_sources/02119.jpg",
-    "images/_sources/00009.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 4271,
-   "probe": "images/FreM/04271.jpg",
-   "candidates": [
-    "images/_sources/03041.jpg",
-    "images/_sources/04271.jpg",
-    "images/_sources/02365.jpg",
-    "images/_sources/04399.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.3324,
-    "cosface_cos": 0.1546,
-    "arcface_cos": -0.0759
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 732,
-   "probe": "images/FORGE/00732.jpg",
-   "candidates": [
-    "images/_sources/00732.jpg",
-    "images/_sources/03424.jpg",
-    "images/_sources/05497.jpg",
-    "images/_sources/04541.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.1981,
-    "cosface_cos": 0.1529,
-    "arcface_cos": 0.8506
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 275,
-   "probe": "images/Forbes/00275.jpg",
-   "candidates": [
-    "images/_sources/01668.jpg",
-    "images/_sources/00275.jpg",
-    "images/_sources/00818.jpg",
-    "images/_sources/01561.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.0072,
-    "cosface_cos": 0.0501,
-    "arcface_cos": 0.3857
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 2128,
-   "probe": "images/FreM/02128.jpg",
-   "candidates": [
-    "images/_sources/04611.jpg",
-    "images/_sources/00298.jpg",
-    "images/_sources/02128.jpg",
-    "images/_sources/03559.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.2783,
-    "cosface_cos": 0.0545,
-    "arcface_cos": 0.0578
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 2270,
-   "probe": "images/Original/02270.jpg",
-   "candidates": [
-    "images/_sources/00584.jpg",
-    "images/_sources/02270.jpg",
-    "images/_sources/03061.jpg",
-    "images/_sources/03563.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 1707,
-   "probe": "images/FreM/01707.jpg",
-   "candidates": [
-    "images/_sources/01835.jpg",
-    "images/_sources/04598.jpg",
-    "images/_sources/01707.jpg",
-    "images/_sources/04346.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.3007,
-    "cosface_cos": 0.1776,
-    "arcface_cos": 0.0693
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 2165,
-   "probe": "images/Original/02165.jpg",
-   "candidates": [
-    "images/_sources/01530.jpg",
-    "images/_sources/05759.jpg",
-    "images/_sources/02165.jpg",
-    "images/_sources/04694.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 290,
-   "probe": "images/Original/00290.jpg",
-   "candidates": [
-    "images/_sources/00290.jpg",
-    "images/_sources/04399.jpg",
-    "images/_sources/01865.jpg",
-    "images/_sources/05964.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 801,
-   "probe": "images/Forbes/00801.jpg",
-   "candidates": [
-    "images/_sources/01053.jpg",
-    "images/_sources/01880.jpg",
-    "images/_sources/00706.jpg",
-    "images/_sources/00801.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": -0.0405,
-    "cosface_cos": -0.0433,
-    "arcface_cos": 0.3389
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 592,
-   "probe": "images/FreM/00592.jpg",
-   "candidates": [
-    "images/_sources/00592.jpg",
-    "images/_sources/02503.jpg",
-    "images/_sources/00779.jpg",
-    "images/_sources/01787.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.3086,
-    "cosface_cos": 0.1403,
-    "arcface_cos": 0.1329
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 5232,
-   "probe": "images/FORGE/05232.jpg",
-   "candidates": [
-    "images/_sources/04211.jpg",
-    "images/_sources/00799.jpg",
-    "images/_sources/01665.jpg",
-    "images/_sources/05232.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.3614,
-    "cosface_cos": 0.3914,
-    "arcface_cos": 0.8576
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 873,
-   "probe": "images/Forbes/00873.jpg",
-   "candidates": [
-    "images/_sources/05705.jpg",
-    "images/_sources/04712.jpg",
-    "images/_sources/05618.jpg",
-    "images/_sources/00873.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.0421,
-    "cosface_cos": 0.032,
-    "arcface_cos": 0.2535
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 243,
-   "probe": "images/FreM/00243.jpg",
-   "candidates": [
-    "images/_sources/03528.jpg",
-    "images/_sources/02747.jpg",
-    "images/_sources/00064.jpg",
-    "images/_sources/00243.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.2615,
-    "cosface_cos": 0.0777,
-    "arcface_cos": -0.1067
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 4312,
-   "probe": "images/FORGE/04312.jpg",
-   "candidates": [
-    "images/_sources/00870.jpg",
-    "images/_sources/04312.jpg",
-    "images/_sources/05703.jpg",
-    "images/_sources/00513.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.1865,
-    "cosface_cos": 0.1974,
-    "arcface_cos": 0.8516
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 3284,
-   "probe": "images/FreM/03284.jpg",
-   "candidates": [
-    "images/_sources/05009.jpg",
-    "images/_sources/03284.jpg",
-    "images/_sources/04477.jpg",
-    "images/_sources/03636.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.2165,
-    "cosface_cos": 0.0715,
-    "arcface_cos": -0.0622
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 2114,
-   "probe": "images/FreM/02114.jpg",
-   "candidates": [
-    "images/_sources/02563.jpg",
-    "images/_sources/00299.jpg",
-    "images/_sources/02015.jpg",
-    "images/_sources/02114.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.3178,
-    "cosface_cos": 0.1776,
-    "arcface_cos": -0.0179
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 3717,
-   "probe": "images/FreM/03717.jpg",
-   "candidates": [
-    "images/_sources/05616.jpg",
-    "images/_sources/05738.jpg",
-    "images/_sources/03717.jpg",
-    "images/_sources/01008.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.274,
-    "cosface_cos": 0.1314,
-    "arcface_cos": 0.1285
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 1086,
-   "probe": "images/Original/01086.jpg",
-   "candidates": [
-    "images/_sources/01506.jpg",
-    "images/_sources/00672.jpg",
-    "images/_sources/01086.jpg",
-    "images/_sources/00488.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 4409,
-   "probe": "images/FreM/04409.jpg",
-   "candidates": [
-    "images/_sources/00746.jpg",
-    "images/_sources/01094.jpg",
-    "images/_sources/04409.jpg",
-    "images/_sources/03924.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.2879,
-    "cosface_cos": 0.1868,
-    "arcface_cos": 0.0598
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 4352,
-   "probe": "images/Original/04352.jpg",
-   "candidates": [
-    "images/_sources/02289.jpg",
-    "images/_sources/04352.jpg",
-    "images/_sources/03372.jpg",
-    "images/_sources/04418.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 1017,
-   "probe": "images/Forbes/01017.jpg",
-   "candidates": [
-    "images/_sources/03205.jpg",
-    "images/_sources/01017.jpg",
-    "images/_sources/03669.jpg",
-    "images/_sources/04969.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": -0.0367,
-    "cosface_cos": -0.0418,
-    "arcface_cos": 0.4232
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 3701,
-   "probe": "images/Original/03701.jpg",
-   "candidates": [
-    "images/_sources/02444.jpg",
-    "images/_sources/02925.jpg",
-    "images/_sources/03701.jpg",
-    "images/_sources/00632.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 2256,
-   "probe": "images/FORGE/02256.jpg",
-   "candidates": [
-    "images/_sources/02573.jpg",
-    "images/_sources/02256.jpg",
-    "images/_sources/04798.jpg",
-    "images/_sources/00916.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.3878,
-    "cosface_cos": 0.4245,
-    "arcface_cos": 0.8821
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 5297,
-   "probe": "images/Forbes/05297.jpg",
-   "candidates": [
-    "images/_sources/04227.jpg",
-    "images/_sources/05297.jpg",
-    "images/_sources/04656.jpg",
-    "images/_sources/03642.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.0038,
-    "cosface_cos": 0.0041,
-    "arcface_cos": 0.3001
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 3308,
-   "probe": "images/Forbes/03308.jpg",
-   "candidates": [
-    "images/_sources/02442.jpg",
-    "images/_sources/04807.jpg",
-    "images/_sources/05806.jpg",
-    "images/_sources/03308.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.0192,
-    "cosface_cos": -0.0202,
-    "arcface_cos": 0.2119
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 5035,
-   "probe": "images/FORGE/05035.jpg",
-   "candidates": [
-    "images/_sources/02290.jpg",
-    "images/_sources/05035.jpg",
-    "images/_sources/05797.jpg",
-    "images/_sources/00006.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.2686,
-    "cosface_cos": 0.27,
-    "arcface_cos": 0.8412
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 4136,
-   "probe": "images/Original/04136.jpg",
-   "candidates": [
-    "images/_sources/04136.jpg",
-    "images/_sources/05412.jpg",
-    "images/_sources/01658.jpg",
-    "images/_sources/03597.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 5050,
-   "probe": "images/FreM/05050.jpg",
-   "candidates": [
-    "images/_sources/01172.jpg",
-    "images/_sources/00188.jpg",
-    "images/_sources/05444.jpg",
-    "images/_sources/05050.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.2035,
-    "cosface_cos": 0.0101,
-    "arcface_cos": 0.0782
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 1755,
-   "probe": "images/FORGE/01755.jpg",
-   "candidates": [
-    "images/_sources/01755.jpg",
-    "images/_sources/03511.jpg",
-    "images/_sources/01790.jpg",
-    "images/_sources/03906.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.1983,
-    "cosface_cos": 0.2316,
-    "arcface_cos": 0.8509
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 5953,
-   "probe": "images/Original/05953.jpg",
-   "candidates": [
-    "images/_sources/05935.jpg",
-    "images/_sources/05953.jpg",
-    "images/_sources/04638.jpg",
-    "images/_sources/00281.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 4303,
-   "probe": "images/FreM/04303.jpg",
-   "candidates": [
-    "images/_sources/03903.jpg",
-    "images/_sources/04303.jpg",
-    "images/_sources/03726.jpg",
-    "images/_sources/03512.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.3191,
-    "cosface_cos": 0.1621,
-    "arcface_cos": -0.0073
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 831,
-   "probe": "images/Original/00831.jpg",
-   "candidates": [
-    "images/_sources/03529.jpg",
-    "images/_sources/00878.jpg",
-    "images/_sources/04294.jpg",
-    "images/_sources/00831.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 2980,
-   "probe": "images/FreM/02980.jpg",
-   "candidates": [
-    "images/_sources/02980.jpg",
-    "images/_sources/04467.jpg",
-    "images/_sources/05592.jpg",
-    "images/_sources/01950.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.2914,
-    "cosface_cos": 0.1133,
-    "arcface_cos": -0.0656
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 1437,
-   "probe": "images/Original/01437.jpg",
-   "candidates": [
-    "images/_sources/01437.jpg",
-    "images/_sources/04322.jpg",
-    "images/_sources/05855.jpg",
-    "images/_sources/05687.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 5475,
-   "probe": "images/FreM/05475.jpg",
-   "candidates": [
-    "images/_sources/04452.jpg",
-    "images/_sources/04763.jpg",
-    "images/_sources/01794.jpg",
-    "images/_sources/05475.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 0.2896,
-    "cosface_cos": 0.1573,
-    "arcface_cos": -0.0243
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 4240,
-   "probe": "images/Original/04240.jpg",
-   "candidates": [
-    "images/_sources/02740.jpg",
-    "images/_sources/00499.jpg",
+    "images/_sources/00898.jpg",
     "images/_sources/05777.jpg",
-    "images/_sources/04240.jpg"
+    "images/_sources/04651.jpg",
+    "images/_sources/01975.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 5120,
-   "probe": "images/FreM/05120.jpg",
-   "candidates": [
-    "images/_sources/05120.jpg",
-    "images/_sources/00125.jpg",
-    "images/_sources/04971.jpg",
-    "images/_sources/05830.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.2401,
-    "cosface_cos": -0.006,
-    "arcface_cos": 0.0728
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 4169,
-   "probe": "images/FORGE/04169.jpg",
-   "candidates": [
-    "images/_sources/03717.jpg",
-    "images/_sources/04169.jpg",
-    "images/_sources/05009.jpg",
-    "images/_sources/03831.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.3721,
-    "cosface_cos": 0.431,
-    "arcface_cos": 0.8643
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 469,
-   "probe": "images/Forbes/00469.jpg",
-   "candidates": [
-    "images/_sources/00469.jpg",
-    "images/_sources/02755.jpg",
-    "images/_sources/05654.jpg",
-    "images/_sources/00925.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.0123,
-    "cosface_cos": 0.1062,
-    "arcface_cos": 0.306
-   }
-  },
-  {
-   "condition": "FreM",
-   "pair_idx": 4279,
-   "probe": "images/FreM/04279.jpg",
-   "candidates": [
-    "images/_sources/04279.jpg",
-    "images/_sources/02352.jpg",
-    "images/_sources/00365.jpg",
-    "images/_sources/05634.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.2304,
-    "cosface_cos": -0.0037,
-    "arcface_cos": -0.1477
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 710,
-   "probe": "images/FORGE/00710.jpg",
-   "candidates": [
-    "images/_sources/01434.jpg",
-    "images/_sources/04491.jpg",
-    "images/_sources/00710.jpg",
-    "images/_sources/03227.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.1442,
-    "cosface_cos": 0.1838,
-    "arcface_cos": 0.8318
+    "heldout_cos": 0.0918,
+    "cosface_cos": 0.0876,
+    "arcface_cos": 0.6138
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 2811,
-   "probe": "images/Original/02811.jpg",
+   "pair_idx": 3775,
+   "probe": "images/Original/03775.jpg",
    "candidates": [
-    "images/_sources/00771.jpg",
-    "images/_sources/04332.jpg",
-    "images/_sources/02394.jpg",
-    "images/_sources/02811.jpg"
+    "images/_sources/02044.jpg",
+    "images/_sources/03775.jpg",
+    "images/_sources/01680.jpg",
+    "images/_sources/05111.jpg"
    ],
-   "correct": 3,
+   "correct": 1,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.575,
+    "cosface_cos": 0.6005,
+    "arcface_cos": 0.6516
    }
   },
   {
-   "condition": "Forbes",
-   "pair_idx": 1313,
-   "probe": "images/Forbes/01313.jpg",
+   "condition": "Original",
+   "pair_idx": 3831,
+   "probe": "images/Original/03831.jpg",
    "candidates": [
-    "images/_sources/02476.jpg",
-    "images/_sources/03519.jpg",
-    "images/_sources/01313.jpg",
-    "images/_sources/05052.jpg"
+    "images/_sources/05640.jpg",
+    "images/_sources/03831.jpg",
+    "images/_sources/00686.jpg",
+    "images/_sources/04778.jpg"
    ],
-   "correct": 2,
+   "correct": 1,
    "proxy": {
-    "heldout_cos": 0.02,
-    "cosface_cos": -0.0255,
-    "arcface_cos": 0.2351
+    "heldout_cos": 0.7319,
+    "cosface_cos": 0.7793,
+    "arcface_cos": 0.7421
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 1417,
-   "probe": "images/FreM/01417.jpg",
+   "pair_idx": 4201,
+   "probe": "images/FreM/04201.jpg",
    "candidates": [
-    "images/_sources/02542.jpg",
-    "images/_sources/01417.jpg",
-    "images/_sources/02467.jpg",
-    "images/_sources/05832.jpg"
+    "images/_sources/03500.jpg",
+    "images/_sources/04201.jpg",
+    "images/_sources/04781.jpg",
+    "images/_sources/02110.jpg"
    ],
    "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.2176,
+    "cosface_cos": -0.0101,
+    "arcface_cos": -0.07
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 659,
+   "probe": "images/FORGE/00659.jpg",
+   "candidates": [
+    "images/_sources/00659.jpg",
+    "images/_sources/02005.jpg",
+    "images/_sources/05007.jpg",
+    "images/_sources/00748.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.3365,
+    "cosface_cos": 0.349,
+    "arcface_cos": 0.5465
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 136,
+   "probe": "images/Forbes/00136.jpg",
+   "candidates": [
+    "images/_sources/02387.jpg",
+    "images/_sources/00136.jpg",
+    "images/_sources/01451.jpg",
+    "images/_sources/00442.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0043,
+    "cosface_cos": -0.067,
+    "arcface_cos": 0.161
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 1952,
+   "probe": "images/FreM/01952.jpg",
+   "candidates": [
+    "images/_sources/03174.jpg",
+    "images/_sources/04927.jpg",
+    "images/_sources/01952.jpg",
+    "images/_sources/04131.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1527,
+    "cosface_cos": 0.0017,
+    "arcface_cos": 0.0116
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 2012,
+   "probe": "images/Original/02012.jpg",
+   "candidates": [
+    "images/_sources/04106.jpg",
+    "images/_sources/02012.jpg",
+    "images/_sources/04280.jpg",
+    "images/_sources/01883.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.67,
+    "cosface_cos": 0.6981,
+    "arcface_cos": 0.6908
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 1452,
+   "probe": "images/FreM/01452.jpg",
+   "candidates": [
+    "images/_sources/00574.jpg",
+    "images/_sources/00344.jpg",
+    "images/_sources/01452.jpg",
+    "images/_sources/05487.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1085,
+    "cosface_cos": 0.0257,
+    "arcface_cos": 0.0491
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 1981,
+   "probe": "images/Original/01981.jpg",
+   "candidates": [
+    "images/_sources/02222.jpg",
+    "images/_sources/03968.jpg",
+    "images/_sources/01981.jpg",
+    "images/_sources/00475.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.6658,
+    "cosface_cos": 0.664,
+    "arcface_cos": 0.7445
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 144,
+   "probe": "images/Original/00144.jpg",
+   "candidates": [
+    "images/_sources/00144.jpg",
+    "images/_sources/04904.jpg",
+    "images/_sources/04264.jpg",
+    "images/_sources/05107.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.6202,
+    "cosface_cos": 0.6431,
+    "arcface_cos": 0.6431
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 696,
+   "probe": "images/Forbes/00696.jpg",
+   "candidates": [
+    "images/_sources/00493.jpg",
+    "images/_sources/02192.jpg",
+    "images/_sources/02668.jpg",
+    "images/_sources/00696.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": -0.056,
+    "cosface_cos": -0.0939,
+    "arcface_cos": 0.3142
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 294,
+   "probe": "images/FreM/00294.jpg",
+   "candidates": [
+    "images/_sources/00294.jpg",
+    "images/_sources/01214.jpg",
+    "images/_sources/05967.jpg",
+    "images/_sources/04047.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.1929,
+    "cosface_cos": -0.0053,
+    "arcface_cos": 0.0143
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 5000,
+   "probe": "images/FORGE/05000.jpg",
+   "candidates": [
+    "images/_sources/02814.jpg",
+    "images/_sources/03660.jpg",
+    "images/_sources/00157.jpg",
+    "images/_sources/05000.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.4173,
+    "cosface_cos": 0.4459,
+    "arcface_cos": 0.8302
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 728,
+   "probe": "images/Forbes/00728.jpg",
+   "candidates": [
+    "images/_sources/03568.jpg",
+    "images/_sources/00202.jpg",
+    "images/_sources/05399.jpg",
+    "images/_sources/00728.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.0271,
+    "cosface_cos": -0.0301,
+    "arcface_cos": 0.2323
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 120,
+   "probe": "images/FreM/00120.jpg",
+   "candidates": [
+    "images/_sources/00752.jpg",
+    "images/_sources/02600.jpg",
+    "images/_sources/03917.jpg",
+    "images/_sources/00120.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.1149,
+    "cosface_cos": 0.0129,
+    "arcface_cos": 0.048
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 4255,
+   "probe": "images/FORGE/04255.jpg",
+   "candidates": [
+    "images/_sources/04215.jpg",
+    "images/_sources/04255.jpg",
+    "images/_sources/02765.jpg",
+    "images/_sources/00560.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0674,
+    "cosface_cos": 0.1026,
+    "arcface_cos": 0.5611
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 3131,
+   "probe": "images/FreM/03131.jpg",
+   "candidates": [
+    "images/_sources/03676.jpg",
+    "images/_sources/03131.jpg",
+    "images/_sources/03119.jpg",
+    "images/_sources/04317.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.2023,
+    "cosface_cos": 0.0648,
+    "arcface_cos": 0.0686
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 1953,
+   "probe": "images/FreM/01953.jpg",
+   "candidates": [
+    "images/_sources/05835.jpg",
+    "images/_sources/04927.jpg",
+    "images/_sources/04131.jpg",
+    "images/_sources/01953.jpg"
+   ],
+   "correct": 3,
    "proxy": {
     "heldout_cos": 0.218,
-    "cosface_cos": -0.0535,
-    "arcface_cos": -0.0467
+    "cosface_cos": 0.0599,
+    "arcface_cos": 0.0745
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 3621,
+   "probe": "images/FreM/03621.jpg",
+   "candidates": [
+    "images/_sources/02725.jpg",
+    "images/_sources/01487.jpg",
+    "images/_sources/03621.jpg",
+    "images/_sources/00689.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.2198,
+    "cosface_cos": 0.1408,
+    "arcface_cos": 0.1117
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 835,
+   "probe": "images/Original/00835.jpg",
+   "candidates": [
+    "images/_sources/01220.jpg",
+    "images/_sources/00205.jpg",
+    "images/_sources/00835.jpg",
+    "images/_sources/05981.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.72,
+    "cosface_cos": 0.7441,
+    "arcface_cos": 0.7497
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 4304,
+   "probe": "images/FreM/04304.jpg",
+   "candidates": [
+    "images/_sources/05364.jpg",
+    "images/_sources/04654.jpg",
+    "images/_sources/04304.jpg",
+    "images/_sources/04966.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1616,
+    "cosface_cos": 0.1365,
+    "arcface_cos": -0.0802
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 4274,
+   "probe": "images/Original/04274.jpg",
+   "candidates": [
+    "images/_sources/03326.jpg",
+    "images/_sources/04274.jpg",
+    "images/_sources/04544.jpg",
+    "images/_sources/03174.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.7528,
+    "cosface_cos": 0.7699,
+    "arcface_cos": 0.8503
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 805,
+   "probe": "images/Forbes/00805.jpg",
+   "candidates": [
+    "images/_sources/01550.jpg",
+    "images/_sources/00805.jpg",
+    "images/_sources/01088.jpg",
+    "images/_sources/05948.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0145,
+    "cosface_cos": 0.0498,
+    "arcface_cos": 0.2888
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 3637,
+   "probe": "images/Original/03637.jpg",
+   "candidates": [
+    "images/_sources/04520.jpg",
+    "images/_sources/00352.jpg",
+    "images/_sources/03637.jpg",
+    "images/_sources/05599.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.654,
+    "cosface_cos": 0.7194,
+    "arcface_cos": 0.6797
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 5521,
-   "probe": "images/FORGE/05521.jpg",
+   "pair_idx": 2010,
+   "probe": "images/FORGE/02010.jpg",
    "candidates": [
+    "images/_sources/02877.jpg",
+    "images/_sources/02010.jpg",
+    "images/_sources/03022.jpg",
+    "images/_sources/03740.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.144,
+    "cosface_cos": 0.1274,
+    "arcface_cos": 0.7703
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 5006,
+   "probe": "images/Forbes/05006.jpg",
+   "candidates": [
+    "images/_sources/01290.jpg",
+    "images/_sources/05006.jpg",
+    "images/_sources/03973.jpg",
+    "images/_sources/03339.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0558,
+    "cosface_cos": -0.028,
+    "arcface_cos": 0.1175
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 3125,
+   "probe": "images/Forbes/03125.jpg",
+   "candidates": [
+    "images/_sources/04757.jpg",
+    "images/_sources/01983.jpg",
+    "images/_sources/01566.jpg",
+    "images/_sources/03125.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.0734,
+    "cosface_cos": -0.0303,
+    "arcface_cos": 0.2897
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 4888,
+   "probe": "images/FORGE/04888.jpg",
+   "candidates": [
+    "images/_sources/02499.jpg",
+    "images/_sources/04888.jpg",
+    "images/_sources/02862.jpg",
+    "images/_sources/02353.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.4946,
+    "cosface_cos": 0.5774,
+    "arcface_cos": 0.6002
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 3859,
+   "probe": "images/Original/03859.jpg",
+   "candidates": [
+    "images/_sources/03859.jpg",
+    "images/_sources/03288.jpg",
     "images/_sources/04211.jpg",
-    "images/_sources/05521.jpg",
-    "images/_sources/02298.jpg",
-    "images/_sources/00411.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.4322,
-    "cosface_cos": 0.4935,
-    "arcface_cos": 0.8633
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 4405,
-   "probe": "images/Forbes/04405.jpg",
-   "candidates": [
-    "images/_sources/05780.jpg",
-    "images/_sources/03593.jpg",
-    "images/_sources/02202.jpg",
-    "images/_sources/04405.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": -0.0081,
-    "cosface_cos": 0.0058,
-    "arcface_cos": 0.4169
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 2787,
-   "probe": "images/FORGE/02787.jpg",
-   "candidates": [
-    "images/_sources/02147.jpg",
-    "images/_sources/02787.jpg",
-    "images/_sources/04966.jpg",
-    "images/_sources/00421.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.1678,
-    "cosface_cos": 0.1428,
-    "arcface_cos": 0.8517
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 1517,
-   "probe": "images/Original/01517.jpg",
-   "candidates": [
-    "images/_sources/02351.jpg",
-    "images/_sources/01517.jpg",
-    "images/_sources/03603.jpg",
-    "images/_sources/05862.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 1893,
-   "probe": "images/Original/01893.jpg",
-   "candidates": [
-    "images/_sources/01893.jpg",
-    "images/_sources/00043.jpg",
-    "images/_sources/03402.jpg",
-    "images/_sources/03637.jpg"
+    "images/_sources/05286.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 5119,
-   "probe": "images/Forbes/05119.jpg",
-   "candidates": [
-    "images/_sources/02795.jpg",
-    "images/_sources/02265.jpg",
-    "images/_sources/05119.jpg",
-    "images/_sources/05177.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.1117,
-    "cosface_cos": 0.0907,
-    "arcface_cos": 0.4461
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 485,
-   "probe": "images/FORGE/00485.jpg",
-   "candidates": [
-    "images/_sources/03926.jpg",
-    "images/_sources/02960.jpg",
-    "images/_sources/00485.jpg",
-    "images/_sources/02138.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.2421,
-    "cosface_cos": 0.2358,
-    "arcface_cos": 0.8518
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 5383,
-   "probe": "images/FORGE/05383.jpg",
-   "candidates": [
-    "images/_sources/05383.jpg",
-    "images/_sources/04945.jpg",
-    "images/_sources/01923.jpg",
-    "images/_sources/03991.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.0985,
-    "cosface_cos": 0.1072,
-    "arcface_cos": 0.8467
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 633,
-   "probe": "images/Forbes/00633.jpg",
-   "candidates": [
-    "images/_sources/01616.jpg",
-    "images/_sources/01369.jpg",
-    "images/_sources/00633.jpg",
-    "images/_sources/02195.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.068,
-    "cosface_cos": 0.1215,
-    "arcface_cos": 0.423
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 4433,
-   "probe": "images/Original/04433.jpg",
-   "candidates": [
-    "images/_sources/05938.jpg",
-    "images/_sources/02057.jpg",
-    "images/_sources/00513.jpg",
-    "images/_sources/04433.jpg"
-   ],
-   "correct": 3,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 1261,
-   "probe": "images/FORGE/01261.jpg",
-   "candidates": [
-    "images/_sources/01261.jpg",
-    "images/_sources/03918.jpg",
-    "images/_sources/05262.jpg",
-    "images/_sources/02862.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.5405,
-    "cosface_cos": 0.565,
-    "arcface_cos": 0.8674
+    "heldout_cos": 0.748,
+    "cosface_cos": 0.7772,
+    "arcface_cos": 0.8314
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 5026,
-   "probe": "images/FreM/05026.jpg",
+   "pair_idx": 4890,
+   "probe": "images/FreM/04890.jpg",
    "candidates": [
-    "images/_sources/03184.jpg",
-    "images/_sources/01987.jpg",
-    "images/_sources/02758.jpg",
-    "images/_sources/05026.jpg"
+    "images/_sources/03007.jpg",
+    "images/_sources/01463.jpg",
+    "images/_sources/00048.jpg",
+    "images/_sources/04890.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 0.1936,
-    "cosface_cos": -0.0912,
-    "arcface_cos": -0.0215
+    "heldout_cos": 0.1834,
+    "cosface_cos": 0.0485,
+    "arcface_cos": -0.0256
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 1461,
+   "probe": "images/FORGE/01461.jpg",
+   "candidates": [
+    "images/_sources/01461.jpg",
+    "images/_sources/03148.jpg",
+    "images/_sources/04454.jpg",
+    "images/_sources/04065.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.0715,
+    "cosface_cos": 0.1058,
+    "arcface_cos": 0.4762
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 47,
-   "probe": "images/Original/00047.jpg",
+   "pair_idx": 1956,
+   "probe": "images/Original/01956.jpg",
    "candidates": [
-    "images/_sources/02679.jpg",
-    "images/_sources/00047.jpg",
-    "images/_sources/02754.jpg",
-    "images/_sources/00821.jpg"
+    "images/_sources/00475.jpg",
+    "images/_sources/01956.jpg",
+    "images/_sources/01910.jpg",
+    "images/_sources/04379.jpg"
    ],
    "correct": 1,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 4150,
-   "probe": "images/FORGE/04150.jpg",
-   "candidates": [
-    "images/_sources/00980.jpg",
-    "images/_sources/04150.jpg",
-    "images/_sources/01045.jpg",
-    "images/_sources/03338.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.2531,
-    "cosface_cos": 0.3109,
-    "arcface_cos": 0.8484
-   }
-  },
-  {
-   "condition": "Forbes",
-   "pair_idx": 3662,
-   "probe": "images/Forbes/03662.jpg",
-   "candidates": [
-    "images/_sources/04413.jpg",
-    "images/_sources/00072.jpg",
-    "images/_sources/03662.jpg",
-    "images/_sources/01081.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.0117,
-    "cosface_cos": 0.0036,
-    "arcface_cos": 0.1796
+    "heldout_cos": 0.7611,
+    "cosface_cos": 0.8103,
+    "arcface_cos": 0.7625
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 4720,
-   "probe": "images/FreM/04720.jpg",
+   "pair_idx": 4232,
+   "probe": "images/FreM/04232.jpg",
    "candidates": [
-    "images/_sources/04720.jpg",
-    "images/_sources/03450.jpg",
-    "images/_sources/00175.jpg",
-    "images/_sources/05028.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.241,
-    "cosface_cos": 0.0428,
-    "arcface_cos": 0.056
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 1742,
-   "probe": "images/FORGE/01742.jpg",
-   "candidates": [
-    "images/_sources/03736.jpg",
-    "images/_sources/01742.jpg",
-    "images/_sources/02507.jpg",
-    "images/_sources/04682.jpg"
+    "images/_sources/03789.jpg",
+    "images/_sources/04232.jpg",
+    "images/_sources/03795.jpg",
+    "images/_sources/00932.jpg"
    ],
    "correct": 1,
    "proxy": {
-    "heldout_cos": 0.0746,
-    "cosface_cos": 0.1353,
-    "arcface_cos": 0.8012
+    "heldout_cos": 0.1795,
+    "cosface_cos": 0.0928,
+    "arcface_cos": -0.0657
    }
   },
   {
-   "condition": "Forbes",
-   "pair_idx": 2035,
-   "probe": "images/Forbes/02035.jpg",
+   "condition": "Original",
+   "pair_idx": 711,
+   "probe": "images/Original/00711.jpg",
    "candidates": [
-    "images/_sources/00987.jpg",
-    "images/_sources/04340.jpg",
-    "images/_sources/02706.jpg",
-    "images/_sources/02035.jpg"
+    "images/_sources/04706.jpg",
+    "images/_sources/05465.jpg",
+    "images/_sources/01924.jpg",
+    "images/_sources/00711.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": -0.0186,
-    "cosface_cos": -0.0072,
-    "arcface_cos": 0.3817
+    "heldout_cos": 0.8127,
+    "cosface_cos": 0.8454,
+    "arcface_cos": 0.8658
    }
   },
   {
-   "condition": "Forbes",
-   "pair_idx": 4156,
-   "probe": "images/Forbes/04156.jpg",
+   "condition": "FreM",
+   "pair_idx": 2664,
+   "probe": "images/FreM/02664.jpg",
    "candidates": [
-    "images/_sources/03199.jpg",
+    "images/_sources/02664.jpg",
     "images/_sources/00657.jpg",
-    "images/_sources/04156.jpg",
-    "images/_sources/05748.jpg"
+    "images/_sources/02391.jpg",
+    "images/_sources/05587.jpg"
    ],
-   "correct": 2,
+   "correct": 0,
    "proxy": {
-    "heldout_cos": -0.0127,
-    "cosface_cos": 0.031,
-    "arcface_cos": 0.4864
+    "heldout_cos": 0.2195,
+    "cosface_cos": 0.0668,
+    "arcface_cos": 0.0189
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 1315,
+   "probe": "images/Original/01315.jpg",
+   "candidates": [
+    "images/_sources/01315.jpg",
+    "images/_sources/03344.jpg",
+    "images/_sources/00940.jpg",
+    "images/_sources/00775.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.8348,
+    "cosface_cos": 0.8313,
+    "arcface_cos": 0.804
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 1810,
-   "probe": "images/FreM/01810.jpg",
+   "pair_idx": 5408,
+   "probe": "images/FreM/05408.jpg",
    "candidates": [
-    "images/_sources/02464.jpg",
-    "images/_sources/05665.jpg",
-    "images/_sources/01810.jpg",
-    "images/_sources/03137.jpg"
+    "images/_sources/00306.jpg",
+    "images/_sources/00677.jpg",
+    "images/_sources/05071.jpg",
+    "images/_sources/05408.jpg"
    ],
-   "correct": 2,
+   "correct": 3,
    "proxy": {
-    "heldout_cos": 0.2292,
-    "cosface_cos": -0.0264,
+    "heldout_cos": 0.2689,
+    "cosface_cos": 0.1857,
+    "arcface_cos": 0.1207
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 3891,
+   "probe": "images/Original/03891.jpg",
+   "candidates": [
+    "images/_sources/04762.jpg",
+    "images/_sources/03710.jpg",
+    "images/_sources/03840.jpg",
+    "images/_sources/03891.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.3441,
+    "cosface_cos": 0.3668,
+    "arcface_cos": 0.3587
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 4926,
+   "probe": "images/FreM/04926.jpg",
+   "candidates": [
+    "images/_sources/04926.jpg",
+    "images/_sources/04901.jpg",
+    "images/_sources/01328.jpg",
+    "images/_sources/04033.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.1797,
+    "cosface_cos": 0.1017,
     "arcface_cos": 0.004
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 1241,
-   "probe": "images/FORGE/01241.jpg",
+   "pair_idx": 3881,
+   "probe": "images/FORGE/03881.jpg",
    "candidates": [
-    "images/_sources/05674.jpg",
-    "images/_sources/01241.jpg",
-    "images/_sources/01649.jpg",
-    "images/_sources/01164.jpg"
+    "images/_sources/02964.jpg",
+    "images/_sources/03881.jpg",
+    "images/_sources/00934.jpg",
+    "images/_sources/00896.jpg"
    ],
    "correct": 1,
    "proxy": {
-    "heldout_cos": 0.2933,
-    "cosface_cos": 0.3066,
-    "arcface_cos": 0.8497
+    "heldout_cos": 0.2381,
+    "cosface_cos": 0.2597,
+    "arcface_cos": 0.6812
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 3211,
-   "probe": "images/Forbes/03211.jpg",
+   "pair_idx": 231,
+   "probe": "images/Forbes/00231.jpg",
    "candidates": [
-    "images/_sources/01918.jpg",
-    "images/_sources/04545.jpg",
-    "images/_sources/03211.jpg",
-    "images/_sources/00694.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": -0.0362,
-    "cosface_cos": -0.013,
-    "arcface_cos": 0.3201
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 1123,
-   "probe": "images/FORGE/01123.jpg",
-   "candidates": [
-    "images/_sources/01123.jpg",
-    "images/_sources/04095.jpg",
-    "images/_sources/00533.jpg",
-    "images/_sources/02647.jpg"
+    "images/_sources/00231.jpg",
+    "images/_sources/00640.jpg",
+    "images/_sources/01525.jpg",
+    "images/_sources/03676.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 0.4449,
-    "cosface_cos": 0.4692,
-    "arcface_cos": 0.8573
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 5512,
-   "probe": "images/Original/05512.jpg",
-   "candidates": [
-    "images/_sources/05267.jpg",
-    "images/_sources/02640.jpg",
-    "images/_sources/05512.jpg",
-    "images/_sources/04921.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 3171,
-   "probe": "images/FORGE/03171.jpg",
-   "candidates": [
-    "images/_sources/04975.jpg",
-    "images/_sources/01874.jpg",
-    "images/_sources/03171.jpg",
-    "images/_sources/00165.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 0.1954,
-    "cosface_cos": 0.1829,
-    "arcface_cos": 0.8493
+    "heldout_cos": 0.0198,
+    "cosface_cos": 0.0579,
+    "arcface_cos": 0.3383
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 4622,
-   "probe": "images/FreM/04622.jpg",
+   "pair_idx": 4208,
+   "probe": "images/FreM/04208.jpg",
    "candidates": [
-    "images/_sources/04622.jpg",
-    "images/_sources/03328.jpg",
-    "images/_sources/01156.jpg",
-    "images/_sources/03173.jpg"
+    "images/_sources/04208.jpg",
+    "images/_sources/02473.jpg",
+    "images/_sources/05908.jpg",
+    "images/_sources/05453.jpg"
    ],
    "correct": 0,
    "proxy": {
-    "heldout_cos": 0.2683,
-    "cosface_cos": 0.0592,
-    "arcface_cos": -0.0317
+    "heldout_cos": 0.1245,
+    "cosface_cos": 0.0926,
+    "arcface_cos": -0.0142
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 5323,
-   "probe": "images/FORGE/05323.jpg",
+   "pair_idx": 652,
+   "probe": "images/FORGE/00652.jpg",
    "candidates": [
-    "images/_sources/01414.jpg",
-    "images/_sources/03749.jpg",
-    "images/_sources/05323.jpg",
-    "images/_sources/04756.jpg"
+    "images/_sources/03351.jpg",
+    "images/_sources/00736.jpg",
+    "images/_sources/00652.jpg",
+    "images/_sources/05740.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.1856,
-    "cosface_cos": 0.2318,
-    "arcface_cos": 0.7806
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 3414,
-   "probe": "images/FORGE/03414.jpg",
-   "candidates": [
-    "images/_sources/03414.jpg",
-    "images/_sources/02229.jpg",
-    "images/_sources/05988.jpg",
-    "images/_sources/03696.jpg"
-   ],
-   "correct": 0,
-   "proxy": {
-    "heldout_cos": 0.4685,
-    "cosface_cos": 0.447,
-    "arcface_cos": 0.8556
+    "heldout_cos": 0.2043,
+    "cosface_cos": 0.2054,
+    "arcface_cos": 0.6434
    }
   },
   {
    "condition": "Original",
-   "pair_idx": 984,
-   "probe": "images/Original/00984.jpg",
+   "pair_idx": 2578,
+   "probe": "images/Original/02578.jpg",
    "candidates": [
-    "images/_sources/03151.jpg",
-    "images/_sources/04455.jpg",
-    "images/_sources/00984.jpg",
-    "images/_sources/00751.jpg"
-   ],
-   "correct": 2,
-   "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
-   }
-  },
-  {
-   "condition": "Original",
-   "pair_idx": 5813,
-   "probe": "images/Original/05813.jpg",
-   "candidates": [
-    "images/_sources/00039.jpg",
-    "images/_sources/05253.jpg",
-    "images/_sources/03789.jpg",
-    "images/_sources/05813.jpg"
+    "images/_sources/00494.jpg",
+    "images/_sources/04323.jpg",
+    "images/_sources/00616.jpg",
+    "images/_sources/02578.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 1.0,
-    "cosface_cos": 1.0,
-    "arcface_cos": 1.0
+    "heldout_cos": 0.6583,
+    "cosface_cos": 0.7304,
+    "arcface_cos": 0.7889
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 2018,
-   "probe": "images/Forbes/02018.jpg",
+   "pair_idx": 1253,
+   "probe": "images/Forbes/01253.jpg",
    "candidates": [
-    "images/_sources/01237.jpg",
-    "images/_sources/02018.jpg",
-    "images/_sources/04799.jpg",
-    "images/_sources/02433.jpg"
+    "images/_sources/05807.jpg",
+    "images/_sources/05963.jpg",
+    "images/_sources/01253.jpg",
+    "images/_sources/00089.jpg"
    ],
-   "correct": 1,
+   "correct": 2,
    "proxy": {
-    "heldout_cos": 0.0193,
-    "cosface_cos": 0.0074,
-    "arcface_cos": 0.3177
-   }
-  },
-  {
-   "condition": "FORGE",
-   "pair_idx": 4170,
-   "probe": "images/FORGE/04170.jpg",
-   "candidates": [
-    "images/_sources/02227.jpg",
-    "images/_sources/04170.jpg",
-    "images/_sources/01665.jpg",
-    "images/_sources/03487.jpg"
-   ],
-   "correct": 1,
-   "proxy": {
-    "heldout_cos": 0.2326,
-    "cosface_cos": 0.2328,
-    "arcface_cos": 0.8475
+    "heldout_cos": -0.0213,
+    "cosface_cos": -0.056,
+    "arcface_cos": 0.3508
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 4750,
-   "probe": "images/FreM/04750.jpg",
+   "pair_idx": 1307,
+   "probe": "images/FreM/01307.jpg",
    "candidates": [
-    "images/_sources/02532.jpg",
-    "images/_sources/00838.jpg",
-    "images/_sources/00648.jpg",
-    "images/_sources/04750.jpg"
+    "images/_sources/01550.jpg",
+    "images/_sources/01307.jpg",
+    "images/_sources/01967.jpg",
+    "images/_sources/02811.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.1007,
+    "cosface_cos": -0.0478,
+    "arcface_cos": 0.0193
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 5450,
+   "probe": "images/FORGE/05450.jpg",
+   "candidates": [
+    "images/_sources/05399.jpg",
+    "images/_sources/05450.jpg",
+    "images/_sources/05095.jpg",
+    "images/_sources/04695.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.2054,
+    "cosface_cos": 0.2445,
+    "arcface_cos": 0.5286
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 4270,
+   "probe": "images/Forbes/04270.jpg",
+   "candidates": [
+    "images/_sources/04732.jpg",
+    "images/_sources/03012.jpg",
+    "images/_sources/03138.jpg",
+    "images/_sources/04270.jpg"
    ],
    "correct": 3,
    "proxy": {
-    "heldout_cos": 0.2036,
-    "cosface_cos": 0.0291,
-    "arcface_cos": 0.0251
+    "heldout_cos": 0.03,
+    "cosface_cos": 0.0245,
+    "arcface_cos": 0.2122
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 2592,
+   "probe": "images/FORGE/02592.jpg",
+   "candidates": [
+    "images/_sources/01371.jpg",
+    "images/_sources/02592.jpg",
+    "images/_sources/05967.jpg",
+    "images/_sources/05134.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.1631,
+    "cosface_cos": 0.1059,
+    "arcface_cos": 0.6862
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 1356,
+   "probe": "images/Original/01356.jpg",
+   "candidates": [
+    "images/_sources/02676.jpg",
+    "images/_sources/01356.jpg",
+    "images/_sources/02277.jpg",
+    "images/_sources/00423.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.7631,
+    "cosface_cos": 0.7887,
+    "arcface_cos": 0.7977
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 1835,
+   "probe": "images/Original/01835.jpg",
+   "candidates": [
+    "images/_sources/01835.jpg",
+    "images/_sources/00889.jpg",
+    "images/_sources/04314.jpg",
+    "images/_sources/04182.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.7201,
+    "cosface_cos": 0.7226,
+    "arcface_cos": 0.6814
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 3001,
-   "probe": "images/Forbes/03001.jpg",
+   "pair_idx": 4927,
+   "probe": "images/Forbes/04927.jpg",
    "candidates": [
-    "images/_sources/05533.jpg",
-    "images/_sources/03001.jpg",
-    "images/_sources/04735.jpg",
-    "images/_sources/03025.jpg"
+    "images/_sources/02319.jpg",
+    "images/_sources/03888.jpg",
+    "images/_sources/04927.jpg",
+    "images/_sources/01953.jpg"
    ],
-   "correct": 1,
+   "correct": 2,
    "proxy": {
-    "heldout_cos": -0.0157,
-    "cosface_cos": -0.0664,
-    "arcface_cos": 0.3595
+    "heldout_cos": 0.1173,
+    "cosface_cos": 0.119,
+    "arcface_cos": 0.3646
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 238,
+   "probe": "images/FORGE/00238.jpg",
+   "candidates": [
+    "images/_sources/00933.jpg",
+    "images/_sources/05670.jpg",
+    "images/_sources/00238.jpg",
+    "images/_sources/04297.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1532,
+    "cosface_cos": 0.1544,
+    "arcface_cos": 0.5092
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 5056,
+   "probe": "images/FORGE/05056.jpg",
+   "candidates": [
+    "images/_sources/05056.jpg",
+    "images/_sources/02716.jpg",
+    "images/_sources/04830.jpg",
+    "images/_sources/04687.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.1688,
+    "cosface_cos": 0.0754,
+    "arcface_cos": 0.5697
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 613,
+   "probe": "images/Forbes/00613.jpg",
+   "candidates": [
+    "images/_sources/03603.jpg",
+    "images/_sources/00001.jpg",
+    "images/_sources/00613.jpg",
+    "images/_sources/03178.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.02,
+    "cosface_cos": 0.0397,
+    "arcface_cos": 0.3278
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 4291,
+   "probe": "images/Original/04291.jpg",
+   "candidates": [
+    "images/_sources/05670.jpg",
+    "images/_sources/04246.jpg",
+    "images/_sources/00416.jpg",
+    "images/_sources/04291.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.6223,
+    "cosface_cos": 0.6142,
+    "arcface_cos": 0.6441
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 1221,
+   "probe": "images/FORGE/01221.jpg",
+   "candidates": [
+    "images/_sources/01221.jpg",
+    "images/_sources/01887.jpg",
+    "images/_sources/02472.jpg",
+    "images/_sources/00188.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.1559,
+    "cosface_cos": 0.1754,
+    "arcface_cos": 0.5309
    }
   },
   {
    "condition": "FreM",
-   "pair_idx": 1676,
-   "probe": "images/FreM/01676.jpg",
+   "pair_idx": 4874,
+   "probe": "images/FreM/04874.jpg",
    "candidates": [
-    "images/_sources/01676.jpg",
-    "images/_sources/00807.jpg",
-    "images/_sources/02876.jpg",
-    "images/_sources/03901.jpg"
+    "images/_sources/01844.jpg",
+    "images/_sources/04107.jpg",
+    "images/_sources/04912.jpg",
+    "images/_sources/04874.jpg"
    ],
-   "correct": 0,
+   "correct": 3,
    "proxy": {
-    "heldout_cos": 0.2743,
-    "cosface_cos": 0.1136,
-    "arcface_cos": -0.051
+    "heldout_cos": 0.1013,
+    "cosface_cos": 0.0178,
+    "arcface_cos": -0.12
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 23,
+   "probe": "images/Original/00023.jpg",
+   "candidates": [
+    "images/_sources/01541.jpg",
+    "images/_sources/00023.jpg",
+    "images/_sources/05226.jpg",
+    "images/_sources/01854.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.7254,
+    "cosface_cos": 0.744,
+    "arcface_cos": 0.7617
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 120,
-   "probe": "images/FORGE/00120.jpg",
+   "pair_idx": 3868,
+   "probe": "images/FORGE/03868.jpg",
    "candidates": [
-    "images/_sources/00555.jpg",
-    "images/_sources/00969.jpg",
-    "images/_sources/00120.jpg",
-    "images/_sources/02938.jpg"
+    "images/_sources/01888.jpg",
+    "images/_sources/03868.jpg",
+    "images/_sources/00507.jpg",
+    "images/_sources/02583.jpg"
    ],
-   "correct": 2,
+   "correct": 1,
    "proxy": {
-    "heldout_cos": 0.3835,
-    "cosface_cos": 0.3341,
-    "arcface_cos": 0.8591
+    "heldout_cos": 0.2827,
+    "cosface_cos": 0.2969,
+    "arcface_cos": 0.724
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 3818,
-   "probe": "images/Forbes/03818.jpg",
+   "pair_idx": 3299,
+   "probe": "images/Forbes/03299.jpg",
    "candidates": [
-    "images/_sources/01033.jpg",
-    "images/_sources/00718.jpg",
-    "images/_sources/03818.jpg",
-    "images/_sources/00410.jpg"
+    "images/_sources/03084.jpg",
+    "images/_sources/00733.jpg",
+    "images/_sources/03299.jpg",
+    "images/_sources/03293.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.0209,
-    "cosface_cos": -0.0141,
-    "arcface_cos": 0.2873
+    "heldout_cos": 0.0341,
+    "cosface_cos": 0.0237,
+    "arcface_cos": 0.2736
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 4432,
+   "probe": "images/FreM/04432.jpg",
+   "candidates": [
+    "images/_sources/04432.jpg",
+    "images/_sources/00168.jpg",
+    "images/_sources/05590.jpg",
+    "images/_sources/04012.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.288,
+    "cosface_cos": 0.1307,
+    "arcface_cos": 0.0079
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 4399,
-   "probe": "images/FORGE/04399.jpg",
+   "pair_idx": 1463,
+   "probe": "images/FORGE/01463.jpg",
    "candidates": [
-    "images/_sources/04271.jpg",
-    "images/_sources/05224.jpg",
-    "images/_sources/04399.jpg",
-    "images/_sources/00290.jpg"
+    "images/_sources/04890.jpg",
+    "images/_sources/01463.jpg",
+    "images/_sources/00205.jpg",
+    "images/_sources/04455.jpg"
    ],
-   "correct": 2,
+   "correct": 1,
    "proxy": {
-    "heldout_cos": 0.1793,
-    "cosface_cos": 0.1489,
-    "arcface_cos": 0.8362
+    "heldout_cos": 0.4189,
+    "cosface_cos": 0.4577,
+    "arcface_cos": 0.6207
    }
   },
   {
    "condition": "Forbes",
-   "pair_idx": 5171,
-   "probe": "images/Forbes/05171.jpg",
+   "pair_idx": 1912,
+   "probe": "images/Forbes/01912.jpg",
    "candidates": [
-    "images/_sources/05171.jpg",
-    "images/_sources/00302.jpg",
-    "images/_sources/03555.jpg",
-    "images/_sources/04087.jpg"
+    "images/_sources/00026.jpg",
+    "images/_sources/00873.jpg",
+    "images/_sources/01155.jpg",
+    "images/_sources/01912.jpg"
    ],
-   "correct": 0,
+   "correct": 3,
    "proxy": {
-    "heldout_cos": -0.0284,
-    "cosface_cos": -0.068,
-    "arcface_cos": 0.3244
+    "heldout_cos": 0.0235,
+    "cosface_cos": 0.0403,
+    "arcface_cos": 0.115
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 3840,
+   "probe": "images/Forbes/03840.jpg",
+   "candidates": [
+    "images/_sources/00314.jpg",
+    "images/_sources/03891.jpg",
+    "images/_sources/03840.jpg",
+    "images/_sources/04928.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": -0.0491,
+    "cosface_cos": -0.0209,
+    "arcface_cos": 0.2583
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 1499,
+   "probe": "images/FreM/01499.jpg",
+   "candidates": [
+    "images/_sources/01322.jpg",
+    "images/_sources/04789.jpg",
+    "images/_sources/01499.jpg",
+    "images/_sources/02643.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1648,
+    "cosface_cos": 0.0853,
+    "arcface_cos": -0.0254
    }
   },
   {
    "condition": "FORGE",
-   "pair_idx": 2194,
-   "probe": "images/FORGE/02194.jpg",
+   "pair_idx": 1214,
+   "probe": "images/FORGE/01214.jpg",
    "candidates": [
-    "images/_sources/02183.jpg",
-    "images/_sources/05407.jpg",
-    "images/_sources/02194.jpg",
-    "images/_sources/05299.jpg"
+    "images/_sources/00294.jpg",
+    "images/_sources/01214.jpg",
+    "images/_sources/03469.jpg",
+    "images/_sources/00544.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.2852,
+    "cosface_cos": 0.2923,
+    "arcface_cos": 0.5801
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 3079,
+   "probe": "images/Forbes/03079.jpg",
+   "candidates": [
+    "images/_sources/04765.jpg",
+    "images/_sources/00325.jpg",
+    "images/_sources/03079.jpg",
+    "images/_sources/01979.jpg"
    ],
    "correct": 2,
    "proxy": {
-    "heldout_cos": 0.4419,
-    "cosface_cos": 0.542,
-    "arcface_cos": 0.8651
+    "heldout_cos": -0.0102,
+    "cosface_cos": -0.0393,
+    "arcface_cos": 0.3562
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 858,
+   "probe": "images/FORGE/00858.jpg",
+   "candidates": [
+    "images/_sources/00858.jpg",
+    "images/_sources/00921.jpg",
+    "images/_sources/01897.jpg",
+    "images/_sources/04466.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.1459,
+    "cosface_cos": 0.1042,
+    "arcface_cos": 0.7137
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 5433,
+   "probe": "images/Original/05433.jpg",
+   "candidates": [
+    "images/_sources/03090.jpg",
+    "images/_sources/00580.jpg",
+    "images/_sources/05433.jpg",
+    "images/_sources/03352.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.7147,
+    "cosface_cos": 0.7702,
+    "arcface_cos": 0.8098
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 3062,
+   "probe": "images/FORGE/03062.jpg",
+   "candidates": [
+    "images/_sources/05043.jpg",
+    "images/_sources/03202.jpg",
+    "images/_sources/03062.jpg",
+    "images/_sources/04866.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.2321,
+    "cosface_cos": 0.1916,
+    "arcface_cos": 0.6752
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 4404,
+   "probe": "images/FreM/04404.jpg",
+   "candidates": [
+    "images/_sources/04404.jpg",
+    "images/_sources/03397.jpg",
+    "images/_sources/00433.jpg",
+    "images/_sources/03019.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.2154,
+    "cosface_cos": 0.1141,
+    "arcface_cos": 0.1939
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 5053,
+   "probe": "images/FORGE/05053.jpg",
+   "candidates": [
+    "images/_sources/04837.jpg",
+    "images/_sources/02866.jpg",
+    "images/_sources/05053.jpg",
+    "images/_sources/00695.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1598,
+    "cosface_cos": 0.2069,
+    "arcface_cos": 0.7228
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 3184,
+   "probe": "images/FORGE/03184.jpg",
+   "candidates": [
+    "images/_sources/03184.jpg",
+    "images/_sources/03457.jpg",
+    "images/_sources/03057.jpg",
+    "images/_sources/00900.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.1746,
+    "cosface_cos": 0.1879,
+    "arcface_cos": 0.6246
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 792,
+   "probe": "images/Original/00792.jpg",
+   "candidates": [
+    "images/_sources/03724.jpg",
+    "images/_sources/02366.jpg",
+    "images/_sources/00792.jpg",
+    "images/_sources/02284.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.6219,
+    "cosface_cos": 0.6458,
+    "arcface_cos": 0.6795
+   }
+  },
+  {
+   "condition": "Original",
+   "pair_idx": 5593,
+   "probe": "images/Original/05593.jpg",
+   "candidates": [
+    "images/_sources/00276.jpg",
+    "images/_sources/05126.jpg",
+    "images/_sources/04846.jpg",
+    "images/_sources/05593.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.7304,
+    "cosface_cos": 0.8062,
+    "arcface_cos": 0.8376
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 1901,
+   "probe": "images/Forbes/01901.jpg",
+   "candidates": [
+    "images/_sources/03322.jpg",
+    "images/_sources/01901.jpg",
+    "images/_sources/03656.jpg",
+    "images/_sources/05980.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0149,
+    "cosface_cos": -0.007,
+    "arcface_cos": 0.4034
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 3852,
+   "probe": "images/FORGE/03852.jpg",
+   "candidates": [
+    "images/_sources/00281.jpg",
+    "images/_sources/03852.jpg",
+    "images/_sources/00833.jpg",
+    "images/_sources/02781.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.135,
+    "cosface_cos": 0.0816,
+    "arcface_cos": 0.7099
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 4451,
+   "probe": "images/FreM/04451.jpg",
+   "candidates": [
+    "images/_sources/00298.jpg",
+    "images/_sources/00414.jpg",
+    "images/_sources/05850.jpg",
+    "images/_sources/04451.jpg"
+   ],
+   "correct": 3,
+   "proxy": {
+    "heldout_cos": 0.225,
+    "cosface_cos": 0.0368,
+    "arcface_cos": 0.0322
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 2694,
+   "probe": "images/Forbes/02694.jpg",
+   "candidates": [
+    "images/_sources/03104.jpg",
+    "images/_sources/02694.jpg",
+    "images/_sources/03122.jpg",
+    "images/_sources/01355.jpg"
+   ],
+   "correct": 1,
+   "proxy": {
+    "heldout_cos": 0.0823,
+    "cosface_cos": 0.075,
+    "arcface_cos": 0.2547
+   }
+  },
+  {
+   "condition": "FreM",
+   "pair_idx": 1421,
+   "probe": "images/FreM/01421.jpg",
+   "candidates": [
+    "images/_sources/01421.jpg",
+    "images/_sources/05501.jpg",
+    "images/_sources/01428.jpg",
+    "images/_sources/04923.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.2533,
+    "cosface_cos": 0.2239,
+    "arcface_cos": -0.0003
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 59,
+   "probe": "images/FORGE/00059.jpg",
+   "candidates": [
+    "images/_sources/05864.jpg",
+    "images/_sources/02660.jpg",
+    "images/_sources/00059.jpg",
+    "images/_sources/05028.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.3332,
+    "cosface_cos": 0.3726,
+    "arcface_cos": 0.4877
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 3695,
+   "probe": "images/Forbes/03695.jpg",
+   "candidates": [
+    "images/_sources/00438.jpg",
+    "images/_sources/04098.jpg",
+    "images/_sources/03695.jpg",
+    "images/_sources/02779.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": -0.0205,
+    "cosface_cos": 0.0036,
+    "arcface_cos": 0.233
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 4287,
+   "probe": "images/FORGE/04287.jpg",
+   "candidates": [
+    "images/_sources/03233.jpg",
+    "images/_sources/05566.jpg",
+    "images/_sources/04287.jpg",
+    "images/_sources/02438.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": 0.1267,
+    "cosface_cos": 0.1139,
+    "arcface_cos": 0.4688
+   }
+  },
+  {
+   "condition": "Forbes",
+   "pair_idx": 4946,
+   "probe": "images/Forbes/04946.jpg",
+   "candidates": [
+    "images/_sources/04946.jpg",
+    "images/_sources/02412.jpg",
+    "images/_sources/00399.jpg",
+    "images/_sources/00849.jpg"
+   ],
+   "correct": 0,
+   "proxy": {
+    "heldout_cos": 0.0235,
+    "cosface_cos": -0.0646,
+    "arcface_cos": 0.1841
+   }
+  },
+  {
+   "condition": "FORGE",
+   "pair_idx": 1990,
+   "probe": "images/FORGE/01990.jpg",
+   "candidates": [
+    "images/_sources/05118.jpg",
+    "images/_sources/02207.jpg",
+    "images/_sources/01990.jpg",
+    "images/_sources/00442.jpg"
+   ],
+   "correct": 2,
+   "proxy": {
+    "heldout_cos": -0.0178,
+    "cosface_cos": -0.0174,
+    "arcface_cos": 0.3241
    }
   }
  ]
